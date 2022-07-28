@@ -1,0 +1,57 @@
+html {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+li {
+    list-style: none;
+    margin-left: -30px;
+    margin-right: 90px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+a {
+    display: inline;
+    font-size: 20;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 21px;
+}
+
+header {
+    background-color: #A24857;
+    opacity: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-top: -34px;
+    margin-left: -8px;
+    width: 100%;
+    position: fixed;
+}
+
+h1 {
+    padding-top: 90px;
+    font-size: 50px;
+    color: #A24857;
+}
+
+h2 {
+    color: #A24857;
+    margin-top: 60px;
+}
+
+input {
+    margin-right: 15px;
+}
+
+button {
+    background-color: #A24857;
+    color: white;
+    padding: 5px;

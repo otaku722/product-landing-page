@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 
@@ -20,19 +23,26 @@
     </header>
 
     <main>
-        <h1>Hi, I'm Otaku, a Web Developer</h1>
+        <h1>Hi! I'm Otaku, a Web Developer</h1>
         <section id="about-me">
             <h2>About Me</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem facilis suscipit harum ratione sit delectus ad, praesentium quos commodi nulla natus veniam at magnam nam quasi aperiam excepturi nostrum blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam impedit porro a accusamus sed nostrum perferendis tempore qui cumque facere, dolore repellat molestiae itaque, reiciendis dignissimos obcaecati ex. Atque!</p>
         </section>
-
+        <figure>
+            <img src="https://t4.ftcdn.net/jpg/03/50/27/15/360_F_350271567_1VXWXf7bEPD9jrJdRizsUsTPJQFIlTRc.jpg" alt="Coming Soon" width="415px" height="300px">
+            <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ea accusamus voluptatum ab nesciunt esse!</figcaption>
+        </figure>
     </main>
 
     <form id="contact">
         <h2>Contact Me</h2>
         <fieldset>
-            <label for=""></label>
-            <input type="text">
+            <legend>Enter Your Contact Information Below</legend>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Name">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Email">
+            <button type="submit">Send</button>
         </fieldset>
     </form>
 
