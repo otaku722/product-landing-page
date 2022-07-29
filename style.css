@@ -11,7 +11,7 @@ li {
 }
 
 a {
-    display: inline;
+    display: inline-block;
     font-size: 20;
 }
 
@@ -21,7 +21,13 @@ a:link, a:visited {
 }
 
 a:hover {
-    font-size: 21px;
+    transform: scale(1.2);
+}
+
+a:anchor {
+    position: relative;
+    top: -90px;
+    visibility: hidden;
 }
 
 header {
@@ -55,3 +61,4 @@ button {
     background-color: #A24857;
     color: white;
     padding: 5px;
+}
